@@ -1,0 +1,22 @@
+{
+	"name": "azuredatalabdlgen2_imdb",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "azuredatalabdlgen2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureDataLakeStoreLocation",
+				"folderPath": "imdb"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,9 @@
+{
+	"name": "AZURE-DATA-LAB-DATA-FACTORY1",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b28a0276-d96c-407b-bc3f-17a1f38cb863",
+		"tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+	}
+}

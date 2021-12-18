@@ -1,0 +1,14 @@
+{
+	"name": "azuredatalabdlgen2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://azuredatalabdlgen2.azuredatalakestore.net/webhdfs/v1",
+			"tenant": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+			"subscriptionId": "0c0f36c0-05dd-4163-b8d7-715f804d0bb3",
+			"resourceGroupName": "AZURE_DATA_LAB"
+		}
+	}
+}
